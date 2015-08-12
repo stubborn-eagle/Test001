@@ -1,0 +1,49 @@
+### VASSAL
+* estrapolazione modelli utili quali: 
+  * tabellone di gioco
+  * pedine
+  * dadi
+  * carte
+* come vengono gestiti i turni?
+
+
+### GIOCO BASE (fase1)
+* Implementare un gioco del tipo ognuno alza la carta e vince la carta più alta
+* Utilizzare i modelli presi da vassal
+* Ignorare problemi inerenti rete, db, gui, sicurezza etc...
+* Impostarlo già secondo il modello MVC 
+
+
+### RETE
+* server jboss
+  * configurazione funzionante di base
+  * servizio rest di prova
+
+
+### GIOCO BASE (fase2)
+* Implementare una versione client\server del gioco (sezione ### RETE)
+* (sezione ### GUI)
+* menu di gioco
+* gestione sessione di gioco: Tempo di gioco, Tempo turno
+
+
+### GUI 
+* swing come primo approccio?
+
+
+### PORTABILITA'
+* analisi alternative già presenti
+	* Unity3D
+	* Ubiquity (solo per ws? per servizi rest cosa c'è?)
+
+
+### DB
+* Statistiche partite\giocatori
+
+
+### SICUREZZA
+* accounting utenti
+
+
+### IA
+* algoritmi di IA 
