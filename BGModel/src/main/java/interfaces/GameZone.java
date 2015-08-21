@@ -1,5 +1,7 @@
 package interfaces;
 
+import java.util.List;
+
 /** Basic class for representing a game zone of the boardgame. */
 public interface GameZone {
 
@@ -40,6 +42,24 @@ public interface GameZone {
     void removeGamePiece(String gamePieceId);
 
     /**
+     * Get all the ID of GamePiece objects in the GameZone
+     * @return the list of GamePieces in the GameZone
+     */
+    List<String> getGamePieces();
+
+    /**
+     * Get all the ID of GameZone objects in the GameZone
+     * @return the list of GameZones in the GameZone
+     */
+    List<String> getGameZones();
+
+    /**
+     * Get the ID of the parent GameZone
+     * @return the ID of the parent GameZone or {@link null} if there isn't a parent GameZone
+     */
+    String getParentGameZone();
+
+    /**
      * Check if the {@link GameZone} is public.
      * @return true if the GameZone is public
      */
@@ -58,7 +78,10 @@ public interface GameZone {
      */
     void moveGamePiece(String gamePieceId, String toGameZoneId);
 
-    // TODO
-    // metodi di recupero elementi nella GameZone (GamePiece)
+    /**
+     * Move a {@link GameZone} into a legal GameZone.
+     * @param gameZoneId the ID of the GameZone to move
+     * @param toGameZoneId the ID of the GameZone in which the GameZone will be moved
+     */
 
 }
