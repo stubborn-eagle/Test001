@@ -6,14 +6,21 @@ package interfaces;
 public interface Stackable {
 
     /**
-     * @return the {@link Stack} to which this piece belongs, or null if it doesn't belong to a stack.
+     * Set the {@link Stack} ID to which the piece belongs.
+     * @param id the {@link Stack} ID to which this piece belongs
      */
-    //public Stack getParent();
+    //void setParent(String id);
 
     /**
-     * Set the {@link Stack} to which this piece belongs.
-     * @param stack the {@link Stack} to which this piece belongs
+     * Get the {@link Stack} ID to which the piece belongs.
+     * @return the {@link Stack} ID to which the piece belongs, or null if it doesn't belong to a stack
      */
-    //public void setParent(Stack stack);
+    //String getParent();
+
+    /**
+     * Get the position of the piece in the {@link Stack}.
+     * @return the position of the piece in the {@link Stack}
+     */
+    //Integer getStackPosition();
 
 }
