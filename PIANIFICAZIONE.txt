@@ -1,0 +1,11 @@
+PIANIFICAZIONE DEL PROGETTO
+
+1. Studio di GGP
+  - Link agli argomenti del corso http://logic.stanford.edu/ggp/chapters/notes.html
+  - Link al codice del progetto GGP-Base https://github.com/ggp-org/ggp-base.git
+
+2. Crezione di una libreria di euristiche da utilizzare per il player da sviluppare
+  - Ispirarsi alle massime dell'arte della guerra per scrivere le euristiche, un euristica per ciascuna massima
+
+3. Sviluppo del player e test
+
